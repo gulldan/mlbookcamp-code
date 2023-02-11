@@ -1,7 +1,7 @@
 
 ## 2.4 Setting up the validation framework
 
-<a href="https://www.youtube.com/watch?v=ck0IfiPaQi0"><img src="images/thumbnail-2-04.jpg"></a>
+<a href="https://www.youtube.com/watch?v=ck0IfiPaQi0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=15"><img src="images/thumbnail-2-04.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
@@ -13,13 +13,13 @@ In general, the dataset is split into three parts: training, validation, and tes
 **Pandas attributes and methods:** 
 
 * `df.iloc[]` - returns subsets of records of a dataframe, being selected by numerical indices
-* `df.rest_index()` - restate the orginal indices 
+* `df.reset_index()` - restate the orginal indices 
 * `del df[col]` - eliminates target variable 
 
 **Numpy methods:**
 
-* `np.arrange()` - retruns an array of numbers 
-* `np.random.shuffle()` - retturns a suffled array
+* `np.arange()` - returns an array of numbers 
+* `np.random.shuffle()` - returns a shuffled array
 * `np.random.seed()` - set a seed 
 
 The entire code of this project is available in [this jupyter notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/chapter-02-car-price/02-carprice.ipynb). 
@@ -34,7 +34,7 @@ The entire code of this project is available in [this jupyter notebook](https://
    </tr>
 </table>
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)

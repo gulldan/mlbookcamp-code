@@ -1,6 +1,6 @@
 ## 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
 
-<a href="https://www.youtube.com/watch?v=HGPJ4ekhcLg"><img src="images/thumbnail-5-07.jpg"></a>
+<a href="https://www.youtube.com/watch?v=HGPJ4ekhcLg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-07.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 
@@ -15,7 +15,7 @@ As we see how to deploy our apps in AWS Let's find it out how to deploy them in 
 #### Heroku
 Here we will learn how to deploy our apps in heroku instead of AWS.
 - First of all create your web service with flask. (example file: [churn_prediction.py](https://github.com/amindadgar/customer-churn-app/blob/main/churn_serving.py)
-- Then create a file nameed _requirements.txt_ and assing your dependencies there. Example:
+- Then create a file named _requirements.txt_ and pass your dependencies there. Example:
  ```
  pickle
  numpy
@@ -26,10 +26,10 @@ Here we will learn how to deploy our apps in heroku instead of AWS.
  ```
 web: gunicorn churn_serving:app
   ```
-  Note that the churn_serving name in the box above is the name of the main python file we're going to be runned.
+  Note that the churn_serving name in the box above is the name of the main python file we're going to be running.
  - Create your heroku profile, Go to dashboard and the Deploy tab.
- - Follow the instruction for Deploy using Heroku Git.
- - Great your app is now available from global universe.
+ - Follow the instruction to Deploy using Heroku Git.
+ - Great, your app is now available from global universe.
 
 I've put my heroku app files in this repository:
 https://github.com/amindadgar/customer-churn-app 
@@ -49,7 +49,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 5: Deploying Machine Learning Models](./)

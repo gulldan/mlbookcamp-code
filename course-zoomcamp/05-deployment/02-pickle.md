@@ -1,7 +1,7 @@
 
 ## 5.2 Saving and loading the model
 
-<a href="https://www.youtube.com/watch?v=EJpqZ7OlwFU"><img src="images/thumbnail-5-02.jpg"></a>
+<a href="https://www.youtube.com/watch?v=EJpqZ7OlwFU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-02.jpg"></a>
  
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
@@ -18,7 +18,7 @@
        pickle.dump((dcit_vectorizer, model), f_out)
     f_out.close() ## After opening any file it's nessecery to close it
       ```
-  - In the code above we'll making a binary file named model.bin and writing the dict_vectorizer for one hot encoding and mode as array in it. (We will save it as binary in case it wouldn't be readable by humans)
+  - In the code above we'll making a binary file named model.bin and writing the dict_vectorizer for one hot encoding and model as array in it. (We will save it as binary in case it wouldn't be readable by humans)
   - To be able to use the model in future without running the code, We need to open the binary file we saved before.
   - ```
     with open('mode.bin', 'rb') as f_in:  ## Note that never open a binary file you do not trust!
@@ -43,7 +43,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 5: Deploying Machine Learning Models](./)

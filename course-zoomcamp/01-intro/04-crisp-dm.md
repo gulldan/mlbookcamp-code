@@ -1,13 +1,13 @@
 ## 1.4 CRISP-DM
 
-<a href="https://www.youtube.com/watch?v=dCa3JvmJbr0"><img src="images/thumbnail-1-04.jpg"></a>
+<a href="https://www.youtube.com/watch?v=dCa3JvmJbr0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=5"><img src="images/thumbnail-1-04.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-14-crispdm)
 
 
 ## Notes
 
-CRISP-DM is a methodology for organizing ML projects. It was invented in the 90s by IBM. The steps of this procedure are: 
+CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model. Was conceived in 1996 and became a European Union project under the ESPRIT funding initiative in 1997. The project was led by five companies: Integral Solutions Ltd (ISL), Teradata, Daimler AG, NCR Corporation and OHRA, an insurance company: 
 
 1. **Business understanding:** An important question is if do we need ML for the project. The goal of the project has to be measurable. 
 2. **Data understanding:** Analyze available data sources, and decide if more data is required. 
@@ -18,7 +18,12 @@ CRISP-DM is a methodology for organizing ML projects. It was invented in the 90s
 
 It is important to consider how well maintainable the project is.
   
-In general, ML projects require many iterations. 
+In general, ML projects require many iterations.
+
+**Iteration:** 
+* Start simple
+* Learn from the feedback
+* Improve
 
 <table>
    <tr>

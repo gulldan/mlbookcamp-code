@@ -1,5 +1,8 @@
 ## 5. Deploying Machine Learning Models
 
+> Note: in the videos we use Python 3.8. But you
+> should use Python 3.9
+
 - 5.1 [Intro / Session overview](01-intro.md)
 - 5.2 [Saving and loading the model](02-pickle.md)
 - 5.3 [Web services: introduction to Flask](03-flask-intro.md)
@@ -16,11 +19,18 @@
 
 Did you take notes? You can share them here (or in each unit separately)
 
+* [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/05a_deployment.md)
+* [Docker notes](https://github.com/ayoub-berdeddouch/mlbookcamp-homeworks/blob/main/Deployment/README.md)
+* [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week5/lecture/Lecture_5_deploying_ml_models.ipynb)
+* [WSL + Docker notes](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Week_5-flask_and_docker_for_deployment/readme.md)
+* [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-5-notes.md)
 * Add your notes here
 
 ### Deployment tutorials
 
-* [Deploy Churn Service on Heroku](https://github.com/razekmaiden/churn_service_heroku.git)
 * [Using PythonAnywhere to host your Python Web App for free!!! (an an alternative to AWS/Azure/Google cloud)](https://github.com/nindate/ml-zoomcamp-exercises/blob/main/how-to-use-pythonanywhere.md)
+* [Deploy Churn Service on Heroku](https://github.com/razekmaiden/churn_service_heroku.git)
+* [Installing and using pipenv and Docker on Intel Macs](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/05b_virtenvs.md)
+* [Azure Guide](https://github.com/yusyel/azure#1-creating-azure-account)
 * Add your tutorials here
 

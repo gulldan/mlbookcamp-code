@@ -1,7 +1,7 @@
 
 ## 2.16 Car price prediction project summary
 
-<a href="https://www.youtube.com/watch?v=_qI01YXbyro"><img src="images/thumbnail-2-16.jpg"></a>
+<a href="https://www.youtube.com/watch?v=_qI01YXbyro&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=27"><img src="images/thumbnail-2-16.jpg"></a>
 
 
 
@@ -21,7 +21,7 @@ were explained using the problem to predict the price of cars.
    </tr>
 </table>
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)

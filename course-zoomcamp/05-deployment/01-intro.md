@@ -1,7 +1,7 @@
 
 ## 5.1 Intro / Session overview
 
-<a href="https://www.youtube.com/watch?v=agIFak9A3m8"><img src="images/thumbnail-5-01.jpg"></a>
+<a href="https://www.youtube.com/watch?v=agIFak9A3m8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-01.jpg"></a>
  
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
@@ -11,7 +11,7 @@
 
 
 In This session we talked about the earlier model we made in chapter 3 for churn prediction. <br>
-This chapter containes the deployment of the model. If we want to use the model to predict new values without running the code, There's a way to do this. The way to use the model in different machines without runnung the code, is to deploy the model in a server (run the code and make the model). After deploying the code in a machine used as server we can make some endpoints (using api's) to connect from another machine to the server and predict values.
+This chapter containes the deployment of the model. If we want to use the model to predict new values without running the code, There's a way to do this. The way to use the model in different machines without running the code, is to deploy the model in a server (run the code and make the model). After deploying the code in a machine used as server we can make some endpoints (using api's) to connect from another machine to the server and predict values.
 
 To deploy the model in a server there are some steps:
 - After training the model save it, to use it for making predictions in future (session 02-pickle).
@@ -30,7 +30,7 @@ Add notes from the video (PRs are welcome)
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 5: Deploying Machine Learning Models](./)

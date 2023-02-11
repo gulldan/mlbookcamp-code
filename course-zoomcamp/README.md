@@ -1,12 +1,79 @@
 # Machine Learning Zoomcamp
 
-<a href="https://datatalks.club/courses/2021-winter-ml-zoomcamp.html"><img src="../images/zoomcamp.jpg" /></a>
+<img src="../images/zoomcamp.jpg" />
 
-* [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
+
+<p align="center">
+  <a href="https://airtable.com/shryxwLd0COOEaqXo"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+</p>
+
+* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel
+* [Course telegram channel](https://t.me/mlzoomcamp)
 * [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
-* [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w) (you can register for the course at any point of time!)
-* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
-* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
+* For the 2022 edition, see more info in the [2022 Cohort section](#2022-cohort)
+
+
+### Syllabus 
+
+- [Introduction to Machine Learning](#1-introduction-to-machine-learning)
+- [Machine Learning for Regression](#2-machine-learning-for-regression)
+- [Machine Learning for Classification](#3-machine-learning-for-classification)
+- [Evaluation Metrics for Classification](#4-evaluation-metrics-for-classification)
+- [Deploying Machine Learning Models](#5-deploying-machine-learning-models)
+- [Decision Trees and Ensemble Learning](#6-decision-trees-and-ensemble-learning)
+- [Neural Networks and Deep Learning](#8-neural-networks-and-deep-learning)
+- [Serverless Deep Learning](#9-serverless-deep-learning)
+- [Kubernetes and TensorFlow Serving](#10-kubernetes-and-tensorflow-serving)
+
+## Taking the course
+
+### 2022 Cohort
+
+We start the course again in September 2022
+
+* [Sign up here](https://airtable.com/shryxwLd0COOEaqXo)
+* Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
+* Join the [course telegram channel](https://t.me/mlzoomcamp)
+* Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
+* [Tweet about it](https://ctt.ac/XZ6b9)
+* Start date: September 5
+* If you have questions, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit)  
+* All the materials specific to the 2022 will be in [the 2022 cohort folder](./cohorts/2022/) 
+
+
+### Self-paced mode
+
+You can take the course at your own pace. All the materials are freely available, and you can start learning at any time.
+
+To take the best out of this course, we recommened this:
+
+* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel 
+* For each module, watch the videos and work through the code
+* If you have any questions, ask them in the `#course-ml-zoomcamp` channel in Slack
+* Do homework. There are solutions, but we advise to first attempt the homework yourself, and after that check the solutions
+* Do at least one project. Two is better. Only this way you can make sure you're really learning. If you need feedback, use the `#course-ml-zoomcamp` channel
+
+Of course, you can take each module independently.
+
+### Prerequisites
+
+* Prior programming experience (at least 1+ year)
+* Being comfortable with command line 
+* No prior exposure to machine learning is required
+
+Nice to have but not mandatory
+
+* Python (but you can learn it during the course)
+* Prior exposure to linear algebra will be helpful (e.g. you studied it in college but forgot)
+
+## Asking questions
+
+The best way to get support is to use [DataTalks.Club's Slack](https://datatalks.club/slack.html). Join the [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel.
+
+To make discussions in Slack more organized:
+
+* Follow [these recommendations](asking-questions.md) when asking for help
+* Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)
@@ -98,7 +165,7 @@
 - 6.2 [Data cleaning and preparation](06-trees/02-data-prep.md)
 - 6.3 [Decision trees](06-trees/03-decision-trees.md)
 - 6.4 [Decision tree learning algorithm](06-trees/04-decision-tree-learning.md)
-- 6.5 [Decision trees parameter tuning](06-trees/05-decision-tree-tuning.nd)
+- 6.5 [Decision trees parameter tuning](06-trees/05-decision-tree-tuning.md)
 - 6.6 [Ensemble learning and random forest](06-trees/06-random-forest.md)
 - 6.7 [Gradient boosting and XGBoost](06-trees/07-boosting.md)
 - 6.8 [XGBoost parameter tuning](06-trees/08-xgb-tuning.md)
@@ -108,91 +175,134 @@
 - 6.12 [Homework](06-trees/homework.md)
 
 
-## 7. Midterm Project
+## 7. [Production-Ready Machine Learning (Bento ML)](07-bentoml-production/)
 
-## 8. Neural Networks and Deep Learning
+- 7.1 [Intro/Session Overview](07-bentoml-production/01-intro.md)
+- 7.2 [Building Your Prediction Service with BentoML](07-bentoml-production/02-build-bento-service.md)
+- 7.3 [Deploying Your Prediction Service](07-bentoml-production/03-deploy-bento-service.md)
+- 7.4 [Sending, Receiving and Validating Data](07-bentoml-production/04-validation.md)
+- 7.5 [High-Performance Serving](07-bentoml-production/05-high-performance.md)
+- 7.6 [Bento Production Deployment](07-bentoml-production/06-production-deployment.md)
+- 7.7 [(Optional) Advanced Example: Deploying Stable Diffusion Model](07-bentoml-production/07-stable-diffusion.md)
+- 7.8 [Summary](07-bentoml-production/08-summary.md)
+- 7.9 [Homework](07-bentoml-production/homework.md)
 
-- Clothes classification project
-- TensorFlow and Keras
-- loading the images
-- etc
-- Using a pre-trained model
-- CNNs: convolutional layers
-- CNNs: dense layers
-- Transfer learning
-- Creating the clothes classification model
-- Keras functional components
-- optimizer
-- training the model
-- Learning Rate
-- Model checkpointing
-- Adding more layers
-- Dropout
-- Data augmentation
-- Training a larger clothes classification model
-- Using the model with Keras
-- summary
-- explore more
-- homework
 
-## 9. Serverless Deep Learning
+## [Midterm Project](projects/#midterm-project)
 
-- intro
-- serverless and AWS Lambda
-- tensorflow-lite
-- converting the model to TF-lite
-- preparing images
-- using the model in TF-lite
-- putting everything together in a Lambda function
-- preparing the docker image
-  - testing the image locally
-- pusting the image to ECR
-- creating the lambda function
-- creating the API gateway
-- summary
-- explore more
-- homework
+Putting everything we've learned so far in practice!
 
-## 10. Kubernetes and TensorFlow-Serving
 
-- intro, serving architecture overview
-- saved_model format
-- tensorflow-serving
-  - running TF-serving locally
-- communicating with tf-serving from Jupyter
-- creating the gateway service
-- introduction to Kubernetes
-- creating a cluster on AWS (article)
-- preparing the images
-  - the TF-serving image
-  - the gateway image
-- deploying to Kubernetes
-  - deployment for tf-serving
-  - service for tf-serving
-- creating the gateway on Kubernetes
-  - deploymnet
-  - servince - load balancer
-- testing it
-- deleting the cluster
-- summary
-- explore more
-- homework
+## 8. [Neural Networks and Deep Learning](08-deep-learning/)
 
-## 11. Kubeflow and KFServing
+- 8.1 [Fashion classification](08-deep-learning/01-fashion-classification.md)
+- 8.1b [Setting up the Environment on Saturn Cloud](08-deep-learning/01b-saturn-cloud.md)
+- 8.2 [TensorFlow and Keras](08-deep-learning/02-tensorflow-keras.md)
+- 8.3 [Pre-trained convolutional neural networks](08-deep-learning/03-pretrained-models.md)
+- 8.4 [Convolutional neural networks](08-deep-learning/04-conv-neural-nets.md)
+- 8.5 [Transfer learning](08-deep-learning/05-transfer-learning.md)
+- 8.6 [Adjusting the learning rate](08-deep-learning/06-learning-rate.md)
+- 8.7 [Checkpointing](08-deep-learning/07-checkpointing.md)
+- 8.8 [Adding more layers](08-deep-learning/08-more-layers.md)
+- 8.9 [Regularization and dropout](08-deep-learning/09-dropout.md)
+- 8.10 [Data augmentation](08-deep-learning/10-augmentation.md)
+- 8.11 [Training a larger model](08-deep-learning/11-large-model.md)
+- 8.12 [Using the model](08-deep-learning/12-using-model.md)
+- 8.13 [Summary](08-deep-learning/13-summary.md)
+- 8.14 [Explore more](08-deep-learning/14-explore-more.md)
+- 8.15 [Homework](08-deep-learning/homework.md)
 
-- intro
-- installing Kubeflow on AWS
-- preparing the model: uploading to S3
-- deploying TF models with KF-serving
-- accessing the model
-- tranformers
-- testing it
-- deleting the cluster
-- summary
-- explore more
-- homework - no homework
 
-## 12. Capstone Project
+## 9. [Serverless Deep Learning](09-serverless/)
 
-## 13. Article
+- 9.1 [Introduction to Serverless](09-serverless/01-intro.md)
+- 9.2 [AWS Lambda](09-serverless/02-aws-lambda.md)
+- 9.3 [TensorFlow Lite](09-serverless/03-tensorflow-lite.md)
+- 9.4 [Preparing the code for Lambda](09-serverless/04-preparing-code.md)
+- 9.5 [Preparing a Docker image](09-serverless/05-docker-image.md)
+- 9.6 [Creating the lambda function](09-serverless/06-creating-lambda.md)
+- 9.7 [API Gateway: exposing the lambda function](09-serverless/07-api-gateway.md)
+- 9.8 [Summary](09-serverless/08-summary.md)
+- 9.9 [Explore more](09-serverless/09-explore-more.md)
+- 9.10 [Homework](09-serverless/homework.md)
 
+
+## 10. [Kubernetes and TensorFlow Serving](10-kubernetes/)
+
+- 10.1 [Overview](10-kubernetes/01-overview.md)
+- 10.2 [TensorFlow Serving](10-kubernetes/02-tensorflow-serving.md)
+- 10.3 [Creating a pre-processing service](10-kubernetes/03-preprocessing.md)
+- 10.4 [Running everything locally with Docker-compose](10-kubernetes/04-docker-compose.md)
+- 10.5 [Introduction to Kubernetes](10-kubernetes/05-kubernetes-intro.md)
+- 10.6 [Deploying a simple service to Kubernetes](10-kubernetes/06-kubernetes-simple-service.md)
+- 10.7 [Deploying TensorFlow models to Kubernetes](10-kubernetes/07-kubernetes-tf-serving.md)
+- 10.8 [Deploying to EKS](10-kubernetes/08-eks.md)
+- 10.9 [Summary](10-kubernetes/09-summary.md)
+- 10.10 [Explore more](10-kubernetes/10-explore-more.md)
+- 10.11 [Homework](10-kubernetes/homework.md)
+
+
+## 11. [KServe](11-kserve/) (optional)
+
+- 11.1 [Overview](11-kserve/01-overview.md)
+- 11.2 [Running KServe locally](11-kserve/02-kserve-local.md)
+- 11.3 [Deploying a Scikit-Learn model with KServe](11-kserve/03-kserve-sklearn.md)
+- 11.4 [Deploying custom Scikit-Learn images with KServe](11-kserve/04-kserve-custom-image.md)
+- 11.5 [Serving TensorFlow models with KServe](11-kserve/05-tensorflow-kserve.md)
+- 11.6 [KServe transformers](11-kserve/06-kserve-transformers.md)
+- 11.7 [Deploying with KServe and EKS](11-kserve/07-kserve-eks.dm)
+- 11.8 [Summary](11-kserve/08-summary.md)
+- 11.9 [Explore more](11-kserve/09-explore-more.md)
+
+## [Capstone Project 1](projects/#capstone-1)
+
+Putting everything we've learned so far in practice one more time!
+
+## [Article](article/)
+
+Writing an article about something not covered in the course.
+
+## [Capstone project 2](projects/#capstone-2) (optional)
+
+For those who love projects!
+
+## [Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)
+
+If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
+
+Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)
+
+## Previous cohorts
+
+### 2021 Cohort
+
+* [Homeworks](cohorts/2021)
+* [The 100 leaderboard](cohorts/2021/leaderboard.md)
+
+
+## Our other courses
+
+If you liked this course, you'll like other courses from us:
+
+* [Data Engineering Zoomcamp - free 9-week course about Data Engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
+* [MLOps Zoomcamp - free 10-week course about MLOps](https://github.com/DataTalksClub/mlops-zoomcamp)
+
+
+
+## Supporters and partners
+
+Thanks to the course sponsors for making it possible to run this course
+
+<p align="center">
+  <a href="https://www.bentoml.com/">
+    <img height="100" src="../images/bentoml.png">
+  </a>
+</p>
+
+Thanks to our friends for spreading the word about the course
+
+<p align="center">
+  <a href="https://dphi.tech/">
+    <img height="75" src="https://datatalks.club/images/partners/dphi.png">
+  </a>
+</p>

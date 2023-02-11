@@ -1,7 +1,7 @@
 
 ## 2.10 Computing RMSE on validation data
 
-<a href="https://www.youtube.com/watch?v=rawGPXg2ofE"><img src="images/thumbnail-2-10.jpg"></a>
+<a href="https://www.youtube.com/watch?v=rawGPXg2ofE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=21"><img src="images/thumbnail-2-10.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
@@ -23,7 +23,7 @@ The entire code of this project is available in [this jupyter notebook](https://
    </tr>
 </table>
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 2: Machine Learning for Regression](./)

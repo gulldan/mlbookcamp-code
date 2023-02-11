@@ -1,7 +1,7 @@
 
 ## 3.4 EDA
 
-<a href="https://www.youtube.com/watch?v=BNF1wjBwTQA"><img src="images/thumbnail-3-04.jpg"></a>
+<a href="https://www.youtube.com/watch?v=BNF1wjBwTQA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-3-04.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 
@@ -33,7 +33,7 @@ The entire code of this project is available in [this jupyter notebook](https://
 </table>
 
 
-## Nagivation
+## Navigation
 
 * [Machine Learning Zoomcamp course](../)
 * [Session 3: Machine Learning for Classification](./)
